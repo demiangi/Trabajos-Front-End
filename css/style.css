@@ -1,0 +1,106 @@
+body{
+    font-family:'Roboto', sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.desc{
+    background-color: #1CD1B0;
+    position: absolute;
+    width: 1024px;
+    height: 40px;
+    position: fixed;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    z-index: 40;
+    
+}
+
+.heroe{
+    background-color: #00669F;
+    position: absolute;
+    width: 1024px;
+    height: 80px;
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    z-index: 40;
+    
+}
+
+.circulo{
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 100px;
+}
+
+p{
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main{
+    width: 960px;
+    height: 530px;
+    left: 32px;
+    top: 292px
+}
+
+div{
+    position: relative;
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    z-index: 6px;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    position:absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+}
+h3{
+    margin-top: 30px;
+}
+span{
+    width: 300px; 
+    height: 529px;
+    display: flex;
+    margin: 100px;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 2px 2px 0px #cdcdcd;
+    
+}
+.fondo-foto{
+    position: relative;
+    top: -25px;
+}
+
+button{
+    background-color: #00669F; 
+    color: #ffffff;
+    padding: 15px 25px;
+    border: 0;
+}
+
+section{
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.flex-container{
+    display: inline-block;
+    flex-direction: row;
+}
